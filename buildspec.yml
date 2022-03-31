@@ -10,5 +10,5 @@ phases:
       - echo Build finalizado com sucesso
 artifacts:
   files:
-    - target/desafiofinal.jar
+    - target/Sharerh_Desafio.jar
   discard-paths: yes
