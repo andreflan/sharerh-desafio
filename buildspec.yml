@@ -3,12 +3,12 @@ version: 0.2
 phases:
   build:
     commands:
-      - echo Entrando no build phase
+      - echo Entrando no build phase...
       - mvn clean package
   post_build:
     commands:
       - echo Build finalizado com sucesso
 artifacts:
   files:
-    -target/Sharerh_Desafio.jar
-  discard-path: yes
+    - target/desafiofinal.jar
+  discard-paths: yes
