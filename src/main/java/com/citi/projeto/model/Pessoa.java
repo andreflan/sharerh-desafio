@@ -18,8 +18,9 @@ public class Pessoa implements Serializable{
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Long id;
-	@Column(name="nome", unique = true)
+	@Column(name="nome",length = 80, unique = true)
 	private String nome;
+	@Column(name="sobre_nome",length = 80)
 	private String sobreNome;
 	
 	public Pessoa( ) {		
