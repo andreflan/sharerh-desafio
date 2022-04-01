@@ -9,9 +9,9 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.citi.projeto</groupId>
-	<artifactId>Aplicacao</artifactId>
+	<artifactId>ProjectBank</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>Aplicacao</name>
+	<name>ProjectBank</name>
 	<description>Projeto Conta Bancaria</description>
 	<properties>
 		<java.version>11</java.version>
