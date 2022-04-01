@@ -43,6 +43,7 @@ public class AccountService {
 		p.setnumberAccount(account.getnumberAccount());
 		p.setdigitVerification(account.getdigitVerification());
 		p.setagencyCode(account.getagencyCode());
+		p.setregisterId(account.getregisterId());
 		
 		accountRepository.save(p);
 		
